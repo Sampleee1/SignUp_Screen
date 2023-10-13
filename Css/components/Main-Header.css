@@ -1,0 +1,28 @@
+.Main-Header {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 25px;
+}
+
+.Main-Header .header-sphere {
+    content: "";
+    display: inline-block;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.sphere {
+    display: flex;
+    align-items: center;
+}
+
+.Main-button {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 8px 25.5px;
+    text-decoration: none;
+    border-radius: 10%;
+}
