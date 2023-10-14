@@ -1,10 +1,10 @@
-.Main-Header {
+.main-header {
     display: flex;
     justify-content: space-between;
     margin: 12px 25px;
 }
 
-.Main-Header .header-sphere {
+.main-header .header-sphere .sphere {
     content: "";
     display: inline-block;
     background-color: #C4C4C4;
@@ -13,7 +13,7 @@
     width: 30px;
 }
 
-.sphere {
+.main-header .header-sphere {
     display: flex;
     align-items: center;
 }
