@@ -17,12 +17,3 @@
     display: flex;
     align-items: center;
 }
-
-.Main-button {
-    cursor: pointer;
-    background-color: black;
-    color: white;
-    padding: 8px 25.5px;
-    text-decoration: none;
-    border-radius: 10%;
-}

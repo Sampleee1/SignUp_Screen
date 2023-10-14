@@ -12,3 +12,9 @@ button {
     border: none;
     font-family: inherit;
 }
+
+label, p, a {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+}

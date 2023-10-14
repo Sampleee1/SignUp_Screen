@@ -1,4 +1,99 @@
 .main-form {
     background-color: white;
     border-radius: 24px;
+    margin: 64px 45px;
+    padding: 50px 88px;
+}
+
+.main-form .main-name {
+    display: flex;
+    gap: 16px;
+}
+
+.main-form .components {
+    display: flex;
+    row-gap: 5px;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.main-form .components input {
+    padding: 0 10px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 12px;
+
+}
+
+.main-form .main-terms {
+    margin: 32px 0;
+}
+
+.main-form a {
+    color: black;
+}
+
+.main-form .main-terms .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    padding-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.main-form .main-terms .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+}
+
+.main-form .main-terms .container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.main-form .main-terms .container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.main-form .main-terms .container input:checked ~ .checkmark {
+    background-color: black;
+}
+
+.main-form .main-terms .container .checkmark::after {
+    content: "";
+    position: relative;
+    display: none;
+}
+
+.main-form .main-terms .container input:checked ~ .checkmark::after {
+    display: block;
+}
+
+.container .checkmark:after {
+    border: solid white;
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.main-form .main-submit {
+    display: flex;
+    align-items: baseline;
+    gap: 24px;
 }

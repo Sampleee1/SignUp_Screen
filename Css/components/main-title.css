@@ -4,7 +4,13 @@
     font-size: 48px;
 }
 
-.main-title.-second {
+.main-title.-h3 {
     font-size: 32px;
     font-weight: 200;
+}
+
+.main-title.-second {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
 }

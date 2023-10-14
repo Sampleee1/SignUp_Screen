@@ -1,0 +1,21 @@
+.Main-button {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 8px 25.5px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.Main-button.-submit {
+    padding: 16px 40px;
+    font-size: 22px;
+    background-color: #a8a8a8;
+    border: none;
+    border-radius: 40px;
+}
+
+.Main-button.-submit:hover {
+    transition: all 0.5s;
+    background-color: black;
+}

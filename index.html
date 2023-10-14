@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="Css/components/main-section.css">
     <link rel="stylesheet" href="Css/components/main-title.css">
     <link rel="stylesheet" href="Css/components/main-form.css">
+    <link rel="stylesheet" href="Css/components/main-button.css">
 </head>
 <body>
     <header class="Main-Header">
@@ -25,53 +26,70 @@
 
     <section class="main-section">
         <section class="description">
-            <h1 class="main-title">Design with us</h1>
-            <h3 class="main-title -second">Acess to thousands of design resources and templates</h3>
+            <div class="description2">
+                <h1 class="main-title">Sign up screen</h1>
+                <h3 class="main-title -h3">This login screen was made with love and care by sampleee1</h3>
+            </div>
             <figure>
                 <img src="Assets/img/Illustration.png" alt="Illustration">
             </figure>
         </section>
+
         <section class="main-form">
             <form action="">
-                <label for="FirNam">First Name</label>
-                <input type="text" name="First name" id="FirNam" required>
+                <h1 class="main-title -second">Sign up now</h1>
 
-                <label for="LasNam">Last name</label>
-                <input type="text" name="Last name" id="LasNam" required>
+                <div class="main-name">
+                    <div class="components">
+                        <label for="FirNam">First Name</label>
+                        <input type="text" name="First name" id="FirNam" required>
+                    </div>
 
-                <label for="email">Email address</label>
-                <input type="email" name="Email" id="email" required>
+                    <div class="components">
+                        <label for="LasNam">Last name</label>
+                        <input type="text" name="Last name" id="LasNam" required>
+                    </div>
+                </div>
 
-                <label for="PhoneNumber">Phone number</label>
-                <input type="tel" name="Last name" id="PhoneNumber" autocomplete="new-password" required>
+                <div class="components">
+                    <label for="email">Email address</label>
+                    <input type="email" name="Email" id="email" required>
+                </div>
+                
+                <div class="components">
+                    <label for="PhoneNumber">Phone number</label>
+                    <input type="tel" name="Last name" id="PhoneNumber" autocomplete="new-password" required>
+                </div>
 
-                <div>
+                <div class="components">
                     <label for="Password">Password</label>
                     <input type="password" name="Last name" id="Password" required>
-                    <p>Use 8 or more characters with a mix of letters, numbers & symbols</p>
                 </div>
+                <p> Use 8 or more characters with a mix of letters, numbers & symbols</p>
                     
-                <div>
-                    <input type="checkbox" name="checkbox" id="checkbox">
-                    <p>
-                        By creating an account, i agree to our 
-                        <a href="">Terms of use</a>
-                        and 
-                        <a href="">Privacy Policy</a>
-                    </p>
-                    
-                </div>
+                <div class="main-terms">
 
-                <div>
-                    <input type="checkbox" name="checkbox" id="checkbox">
-                    <p>By creating an account, I am also consenting to receive SMS 
+                    <label class="container">
+                        <input type="checkbox" id="checkbox" checked disabled>
+                            By creating an account, i agree to our 
+                            <a href="behuman.html" target="_blank">Terms of use</a>
+                            and 
+                            <a href="Privacy-policy.html" target="_blank">Privacy Policy</a>
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container">
+                        <input type="checkbox" id="checkbox" required>
+                        By creating an account, I am also consenting to receive SMS 
                         messages and emails, including product new feature updates, 
-                        events, and marketing promotions.</p>
+                        events, and marketing promotions.
+                        <span class="checkmark"></span>
+                    </label>
                 </div>
 
-                <div>
-                    <input type="submit" value="Sign up">
-                    <p>Already have an account? <a href="">Log in</a></p>
+                <div class="main-submit">
+                    <input class="Main-button -submit" type="submit" value="Sign up">
+                    <p> Already have an account? <a href="">Log in</a></p>
                 </div>
             </form>
         </section>
