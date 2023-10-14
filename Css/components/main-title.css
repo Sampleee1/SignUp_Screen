@@ -1,0 +1,10 @@
+.main-title {
+    color: white;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.main-title.-second {
+    font-size: 32px;
+    font-weight: 200;
+}

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="Css/reset.css">
     <link rel="stylesheet" href="Css/components/Main-Header.css">
     <link rel="stylesheet" href="Css/components/main-section.css">
+    <link rel="stylesheet" href="Css/components/main-title.css">
+    <link rel="stylesheet" href="Css/components/main-form.css">
 </head>
 <body>
     <header class="Main-Header">
@@ -23,7 +25,55 @@
 
     <section class="main-section">
         <section class="description">
-            
+            <h1 class="main-title">Design with us</h1>
+            <h3 class="main-title -second">Acess to thousands of design resources and templates</h3>
+            <figure>
+                <img src="Assets/img/Illustration.png" alt="Illustration">
+            </figure>
+        </section>
+        <section class="main-form">
+            <form action="">
+                <label for="FirNam">First Name</label>
+                <input type="text" name="First name" id="FirNam" required>
+
+                <label for="LasNam">Last name</label>
+                <input type="text" name="Last name" id="LasNam" required>
+
+                <label for="email">Email address</label>
+                <input type="email" name="Email" id="email" required>
+
+                <label for="PhoneNumber">Phone number</label>
+                <input type="tel" name="Last name" id="PhoneNumber" autocomplete="new-password" required>
+
+                <div>
+                    <label for="Password">Password</label>
+                    <input type="password" name="Last name" id="Password" required>
+                    <p>Use 8 or more characters with a mix of letters, numbers & symbols</p>
+                </div>
+                    
+                <div>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <p>
+                        By creating an account, i agree to our 
+                        <a href="">Terms of use</a>
+                        and 
+                        <a href="">Privacy Policy</a>
+                    </p>
+                    
+                </div>
+
+                <div>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <p>By creating an account, I am also consenting to receive SMS 
+                        messages and emails, including product new feature updates, 
+                        events, and marketing promotions.</p>
+                </div>
+
+                <div>
+                    <input type="submit" value="Sign up">
+                    <p>Already have an account? <a href="">Log in</a></p>
+                </div>
+            </form>
         </section>
     </section>
 </body>
