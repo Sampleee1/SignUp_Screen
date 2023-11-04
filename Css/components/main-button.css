@@ -13,6 +13,7 @@
     background-color: #a8a8a8;
     border: none;
     border-radius: 40px;
+    transition: all 0.5s;
 }
 
 .Main-button.-submit:hover {
