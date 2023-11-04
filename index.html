@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="Css/components/main-title.css">
     <link rel="stylesheet" href="Css/components/main-form.css">
     <link rel="stylesheet" href="Css/components/main-button.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header class="main-header">
@@ -26,13 +27,16 @@
 
     <section class="main-section">
         <section class="description">
-            <div class="description2">
+
+            <article class="paragraph">
                 <h1 class="main-title">Sign up screen</h1>
                 <h3 class="main-title -h3">This login screen was made with love and care by sampleee1</h3>
-            </div>
+            </article>
+
             <figure>
                 <img src="Assets/img/Illustration.png" alt="Illustration">
             </figure>
+
         </section>
 
         <section class="main-form">
@@ -42,12 +46,12 @@
                 <div class="main-name">
                     <div class="components">
                         <label for="FirNam">First Name</label>
-                        <input type="text" name="First name" id="FirNam" required>
+                        <input type="text" name="First name" id="name" required>
                     </div>
 
                     <div class="components">
                         <label for="LasNam">Last name</label>
-                        <input type="text" name="Last name" id="LasNam" required>
+                        <input type="text" name="Last name" id="name2" required>
                     </div>
                 </div>
 
@@ -58,12 +62,12 @@
                 
                 <div class="components">
                     <label for="PhoneNumber">Phone number</label>
-                    <input type="tel" name="Last name" id="PhoneNumber" autocomplete="new-password" required>
+                    <input type="tel" id="PhoneNumber" required>
                 </div>
 
                 <div class="components">
                     <label for="Password">Password</label>
-                    <input type="password" name="Last name" id="Password" required>
+                    <input type="password" id="Password" required>
                 </div>
                 <p> Use 8 or more characters with a mix of letters, numbers & symbols</p>
                     
@@ -79,7 +83,7 @@
                     </label>
 
                     <label class="container">
-                        <input type="checkbox" id="checkbox" required>
+                        <input type="checkbox" id="checkbox">
                         By creating an account, I am also consenting to receive SMS 
                         messages and emails, including product new feature updates, 
                         events, and marketing promotions.
