@@ -15,3 +15,45 @@
     margin-left: 80px;
     margin-bottom: 32px;
 }
+
+@media screen and (max-width: 768px) {
+    .main-section {
+        display: block;
+    }
+
+    .main-section .description, h1, h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-section .description .paragraph {
+        margin-left: 0;
+    }
+
+    .main-section .main-form {
+        margin: 5px 20px 0 20px;
+    }
+
+    .main-section .main-form .main-name {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .main-section .main-form .main-title.-second {
+        font-size: 25px;
+    }
+
+    .main-section .main-form {
+        margin: 5px 10px 0 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main-section .main-submit {
+        display: block !important;
+        align-items: normal;
+    }
+}
