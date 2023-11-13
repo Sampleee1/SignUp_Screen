@@ -24,6 +24,13 @@
     border-radius: 12px;
 }
 
+.main-form .components img {
+    position: relative;
+    bottom: 48px;
+    left: 90%;
+    right: 20px;
+    cursor: pointer;
+}
 .main-form .main-terms {
     margin: 32px 0;
 }
