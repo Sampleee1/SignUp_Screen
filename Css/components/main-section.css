@@ -16,7 +16,7 @@
     margin-bottom: 32px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
     .main-section {
         display: block;
     }
@@ -52,8 +52,13 @@
         padding-right: 15px;
     }
 
+    .main-section .main-form .components .toggle {
+        width: 10%;
+        left: 87%;
+    }
+
     .main-section .main-submit {
-        display: block !important;
-        align-items: normal;
+        flex-direction: column;
+        align-items: center;
     }
 }
